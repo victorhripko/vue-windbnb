@@ -1,0 +1,36 @@
+.header {
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  background-color: var(--bg);
+
+  &__logo {
+    display: block;
+    width: 30px;
+  }
+
+  &__hamburger {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    line-height: 0;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    background-color: var(--bg);
+    color: var(--accent);
+    cursor: pointer;
+    outline: none;
+    transition-property: border-color;
+    transition-duration: 400ms;
+
+    &:hover,
+    &:focus {
+      border-color: var(--accent);
+    }
+  }
+}
