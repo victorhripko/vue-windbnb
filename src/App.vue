@@ -135,10 +135,10 @@ body {
   background-color: var(--bg);
   color: var(--color);
 
-  @media (prefers-color-scheme: dark) {
-    --bg: #333;
-    --color: white;
-  }
+  // @media (prefers-color-scheme: dark) {
+  //   --bg: #333;
+  //   --color: white;
+  // }
 }
 
 .app {
